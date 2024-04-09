@@ -29,6 +29,29 @@ Took too long on:
   - Romeo: 3.68s
 ```
 
+## Installation
+Copy and paste the raw script into a local Python file, or use the following `curl` command.
+
+```bash
+curl -o phonetic_alphabet_trainer.py https://raw.githubusercontent.com/jpb7/phonetic-alphabet-trainer/main/phonetic_alphabet_trainer.py
+```
+
+Alternatively, you can clone the entire repo.
+
+```bash
+git clone https://github.com/jpb7/phonetic-alphabet-trainer.git
+```
+
+Make sure you have Python 3.6 or newer.
+
+```bash
+python --version
+```
+
+Official Python downloads page:
+
+- [Download Python](https://www.python.org/downloads/)
+
 ## Usage
 Simply run the script from the terminal. Using a shell alias is a lot more convenient: you can add the following to your `~/.bashrc` or `~/.zshrc`, modifying the file path as needed.
 
@@ -54,29 +77,6 @@ L: Lima
 F: Foxtrot
 [...]
 ```
-
-## Installation
-Copy and paste the raw script into a local Python file, or use the following `curl` command.
-
-```bash
-curl -o phonetic_alphabet_trainer.py https://raw.githubusercontent.com/jpb7/phonetic-alphabet-trainer/main/phonetic_alphabet_trainer.py
-```
-
-Alternatively, you can clone the entire repo.
-
-```bash
-git clone https://github.com/jpb7/phonetic-alphabet-trainer.git
-```
-
-Make sure you have Python 3.6 or newer.
-
-```bash
-python --version
-```
-
-Official Python downloads page:
-
-- [Download Python](https://www.python.org/downloads/)
 
 ## License
 
