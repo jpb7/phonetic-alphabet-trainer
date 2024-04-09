@@ -1,12 +1,12 @@
 # Phonetic alphabet trainer
-Command-line tool for practicing the NATO phonetic alphabet.
+Interactive command-line tool for practicing the [NATO phonetic alphabet](https://en.wikipedia.org/wiki/NATO_phonetic_alphabet).
 
 ## Features
 - Runs directly in the terminal.
 - Randomizes order of the phonetic codes from run to run.
 - Times user responses and provides warnings on slow entries.
 - Prints a summary at the end of each run.
-- Handles graceful quitting with `CTRL-C`.
+- Gracefully handles quitting with `CTRL-C`.
 
 ## Example
 ```plaintext
@@ -30,13 +30,19 @@ Took too long on:
 ```
 
 ## Usage
-Simply run the script from the terminal. Using a shell alias is a lot more convenient: you can add the following to your `~/.bashrc` or `~/.zshrc`.
+Simply run the script from the terminal. Using a shell alias is a lot more convenient: you can add the following to your `~/.bashrc` or `~/.zshrc`, modifying the file path as needed.
 
 ```bash
 alias nato="python3 $HOME/bin/phonetic_alphabet_trainer.py"
 ```
 
-Then you can run with a few keystrokes.
+Don't forget to re-source the shell config. For example, for `zsh` you'd run:
+
+```bash
+source ~/.zshrc
+```
+
+Then you can run the script with just a few keystrokes.
 
 ```plaintext
 ❯ nato
@@ -50,7 +56,13 @@ F: Foxtrot
 ```
 
 ## Installation
-Copy and paste the raw script into a local Python file, or clone the repo.
+Copy and paste the raw script into a local Python file, or use the following `curl` command.
+
+```bash
+curl -o phonetic_alphabet_trainer.py https://raw.githubusercontent.com/jpb7/phonetic-alphabet-trainer/main/phonetic_alphabet_trainer.py
+```
+
+Alternatively, you can clone the entire repo.
 
 ```bash
 git clone https://github.com/jpb7/phonetic-alphabet-trainer.git
